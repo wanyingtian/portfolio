@@ -33,7 +33,7 @@
 
         a {
             font-size: 22px;
-            color: #4d4d4e;
+            color: #EDF3EB;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -45,7 +45,7 @@
             }
 
             &:hover {
-                color: #ffd700;
+                color: #72B183;
 
                 svg {
                     opacity: 0;
@@ -88,7 +88,31 @@
         }
         a.active {
             svg {
-                color: #ffd700
+                color: #72B183
+            }
+        }
+    }
+
+    ul {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;    
+
+        li{
+            a {
+                padding: 7px 0;
+                display: block;
+                font-size: 15px;
+                line-height: 16px;
+
+                &:hover  svg{
+                    color: #72B183;
+                }
             }
         }
     }
