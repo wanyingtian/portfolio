@@ -13,8 +13,7 @@ const Home = () => {
                 <br />
                 biomedical engineer
                 </h1>
-                <h2>electrical-biomedical engineer, 
-                    <br /> data science and machine learning enthusiast</h2>
+                <h2>Data Science & Machine Learning Enthusiast</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
 
