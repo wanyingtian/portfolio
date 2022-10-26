@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import AnimatedLetters from '../AnimatedLetters'
 import LogoS from '../../assets/images/W.png'
+import Logo from './Logo'
 
 import './index.scss'
 
@@ -66,6 +67,8 @@ const Home = () => {
                 <h2>Data Science & Machine Learning Enthusiast</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <Logo/>
+            
 
         </div>
     );
