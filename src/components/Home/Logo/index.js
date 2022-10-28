@@ -5,12 +5,12 @@ import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 const Logo = () => {
 
-    const bgRef = useRef();
-    const outlineLogoRef = useRef();
-    const solidLogoRef = useRef();
+    const bgRef = useRef()
+    const outlineLogoRef = useRef()
+    const solidLogoRef = useRef()
 
     useEffect(()=>{
-        gsap.registerPlugin(DrawSVGPlugin)
+        gsap.registerPlugin(DrawSVGPlugin) 
 
         gsap
             .timeline()
@@ -18,7 +18,7 @@ const Logo = () => {
             duration: 1,
             opacity: 1,
             })
-            .from(outlineLogoRef.current, {
+            .from(outlineLogoRef, {
             drawSVG: 0,
             duration: 5,
             })
